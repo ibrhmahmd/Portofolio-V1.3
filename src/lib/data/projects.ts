@@ -4,20 +4,20 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'Image-Recognition-using-TensorFlow',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'AboutThis tutorial shows how to classify images of flowers using a tf.keras.Sequential model and load data using tf.keras.utils.image_dataset_from_directory. It demonstrates the following concepts: Efficiently loading a dataset off disk. Identifying overfitting and applying techniques to mitigate it, including data augmentation and dropout.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'This project demonstrates the process of building an image classification model using TensorFlow, a popular deep learning framework.',
+		links: [{ to: 'https://github.com/ibrhmahmd/Image-Recognition-using-TensorFlow', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Image-Recognition-using-TensorFlow',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('Python', 'Keras','CNN', 'TensorFlow','Data Cleaning'),
+		type: 'ML Model'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
