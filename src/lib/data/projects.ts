@@ -13,9 +13,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ibrhmahmd/Image-Recognition-using-TensorFlow', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Image-Recognition-using-TensorFlow',
-		period: {
-			from: new Date()
-		},
+		period: { from: new Date(2024, 4, 1), to: new Date(2024,4,7) },
 		skills: getSkills('Python', 'Keras','CNN', 'TensorFlow','Data Cleaning'),
 		type: 'ML Model'
 	},
@@ -29,9 +27,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ibrhmahmd/INhive-investing', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'INHIVE',
-		period: {
-			from: new Date()
-		},
+		period: { from: new Date(2023, 10, 1), to: new Date(2023,11,1) },
 		skills: getSkills('C#','.NET', 'Windows Form UI', 'SQL Server'),
 		type: 'DeskTop App',
 		screenshots: [
@@ -71,12 +67,40 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ibrhmahmd/TETRIS', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'TETRIS',
-		period: {
-			from: new Date()
-		},
+		period: { from: new Date(2024, 8, 1), to: new Date(2024,8,7) },
 		skills: getSkills('C#','WPF','OOP','Data Structure & Algorithms','Version Control "GIT"'),
 		type: 'GAME'
-	}
-];
+	},
+	{
+		slug: 'TETRIS',
+		color: '#5e95e3',
+		description:
+		'This project demonstrates the use of a genetic algorithm (GA) to reproduce an image. The implementation utilizes the pygad library for the genetic algorithm, the gari library for image-to-chromosome conversion, and matplotlib for visualization. The aim is to generate an image that closely resembles a target image through evolutionary processes.Project Overvie',
+		shortDescription:
+		'This project demonstrates the use of a genetic algorithm (GA) to reproduce an image. The implementation utilizes the pygad library for the genetic algorithm, the gari library for image-to-chromosome conversion, and matplotlib for visualization. The aim is to generate an image that closely resembles a target image through evolutionary processes.Project Overvie',
+		links: [{ to: 'https://github.com/ibrhmahmd/Genetic_Algorithm_Reproducing_Images', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Genetic_Algorithm_Reproducing_Images',
+		period: { from: new Date(2024, 3, 15), to: new Date(2024,3,30) },
 
+		skills: getSkills('Python','Genetic Algorithms','numpy','imageio','gari','pygad','matplotlib','Version Control "GIT"'),
+		type: 'Image Model'
+	},
+	{
+		slug: 'Genetic Algorithm In C',
+		color: '#5e95e3',
+		description:
+		'The development of this genetic algorithm image generator involved creating a system that evolves binary images to closely match a target image using genetic algorithms. The project integrates selection, crossover, mutation, and replacement techniques to iteratively refine image quality. It leverages C++ for efficient performance and utilizes OpenCV for image handling and display. The implementation allows for visualization of the evolutionary process in real-time.',
+		shortDescription:
+		'The development of this genetic algorithm image generator involved creating a system that evolves binary images to closely match a target image using genetic algorithms. The project integrates selection, crossover, mutation, and replacement techniques to iteratively refine image quality. It leverages C++ for efficient performance and utilizes OpenCV for image handling and display. The implementation allows for visualization of the evolutionary process in real-time.',
+		links: [{ to: 'https://github.com/ibrhmahmd/Genetic_Algorithm_In_C', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Genetic Algorithm In C',
+		period: { from: new Date(2024, 3, 15), to: new Date(2024,3,30) },
+
+		skills: getSkills('C','C++','OpenCV','Genetic Algorithms (selection, crossover, mutation, replacement)'),
+		type: 'Image Model'
+	},
+
+];
 export const title = 'Projects';
