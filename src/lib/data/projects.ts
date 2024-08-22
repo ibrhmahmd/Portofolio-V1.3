@@ -1,6 +1,6 @@
+import type { Project } from '../types';
 import Assets from './assets';
 import { getSkills } from './skills';
-import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
@@ -20,20 +20,20 @@ export const items: Array<Project> = [
 		type: 'ML Model'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'INhive : Trading',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Aims to revolutionize investment accessibility by providing a platform equipped with real‑time data,trading capabilities, educational resources, empowering informed decisions and navigate the financialmarkets with confidence',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		'Aims to revolutionize investment accessibility by providing a platform equipped with real‑time data,trading capabilities, educational resources, empowering informed decisions and navigate the financialmarkets with confidence',
+		links: [{ to: 'https://github.com/ibrhmahmd/INhive-investing', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'INHIVE',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('C#','.NET', 'Windows Form UI', 'SQL Server'),
+		type: 'DeskTop App',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -60,6 +60,22 @@ export const items: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
+	},
+	{
+		slug: 'TETRIS',
+		color: '#5e95e3',
+		description:
+		'TETRIS in WPF.NET: This project is a modern implementation of the classic Tetris game using WPF and C#. It features smooth gameplay, intuitive controls, and a sleek user interface. Perfect for both nostalgic gamers and new players alike!',
+		shortDescription:
+			'TETRIS in WPF.NET: This project is a modern implementation of the classic Tetris game using WPF and C#. It features smooth gameplay, intuitive controls, and a sleek user interface. Perfect for both nostalgic gamers and new players alike!',
+		links: [{ to: 'https://github.com/ibrhmahmd/TETRIS', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'TETRIS',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('C#','WPF','OOP','Data Structure & Algorithms','Version Control "GIT"'),
+		type: 'GAME'
 	}
 ];
 
