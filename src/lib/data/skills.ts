@@ -66,7 +66,7 @@ export const items = [
 		color: 'Yellow',
 		description:
 			'JavaScript (JS) is a versatile, high-level programming language essential for creating interactive and dynamic web applications. Initially developed by Netscape as a client-side scripting language, it has evolved into a robust, server-side language through environments like Node.js. JS enables developers to implement complex features on web pages, such as animations, form validation, and real-time content updates, enhancing user experience. Its asynchronous capabilities, driven by features like Promises and async/await, allow for efficient handling of operations like data fetching. Additionally, with frameworks and libraries like React, Angular, and Vue.js, JavaScript streamlines the development process and fosters the creation of scalable, modern applications.',
-		logo: Assets.Cpp,
+		logo: Assets.JavaScript,
 		name: 'JS',
 		category: 'pro-lang'
 	}),
@@ -120,6 +120,24 @@ export const items = [
 		logo: Assets.Numpy,
 		name: 'Numpy',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'library',
+		color: 'red',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Numpy,
+		name: 'TensorFow',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'library',
+		color: 'blue',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.PostgreSQL,
+		name: 'Entit Framwork',
+		category: 'orm'
 	})
 ] as const;
 
