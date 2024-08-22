@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = 'https://github.com/ibrhmahmd/final-porto-and-delete';
+const base = 'final-porto-and-delete';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
