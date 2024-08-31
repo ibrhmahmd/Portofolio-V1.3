@@ -8,7 +8,7 @@ export const name = 'IBRAHIM';
 export const lastName = 'AHMED';
 
 export const description =
-	'A back-end developer, Expertise in C++, C#, Python, along with proficiency in OOP, DSA I excel in leveraging Microsoft technologies such as .NET Core, ASP.NET';
+	'A back-end developer, Expertise in C++, C#, Python, along with proficiency in OOP, DSA I excel in leveraging Microsoft technologies, including .NET Core, ASP.NET Core, MVC, REST API, and SQL Server. RecentlyI have been working on integrating the Ollama API to include the Llama2 LLM in my projects, enhancing the capabilities ofmy applications with advanced language models';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/ibrhmahmd' },
